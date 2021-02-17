@@ -1,35 +1,43 @@
-Useful commands 
+## Useful commands ##
 
-Create an new angular project 
-	ng new angular10
+Create an new angular project
 
-Move to angular10 filder
-	cd angular10
+**_ng new angular10_**
+
+Move to angular10 folder
+
+**_cd angular10_**
 
 Open the project by visual studio code IDE
-	code .
+
+**_code ._**
 
 Open the application
-	ng serve --open
+	
+**_ng serve --open_**
 
 
 Create an new component
-	ng generate component department
-	ng generate component employee
+	
+**_ng generate component department
+ng generate component employee_**
 
 Adding new service
-	ng generate service shared
 
-First we need to register app module and httpclient module in app.module.ts
+**_ng generate service shared_**
+
+### First we need to register app module and httpclient module in app.module.ts ###
 import {HttpClientModule} from '@angular/common/http'
 import {FormsModule, ReactiveFormsModule} from '@angular/form'
 
-Main files in angular project
-package.json
+### Main files in angular project ###
+
+**package.json**
 contains all the packages and modules or dependencies that are currently used or needed by this application to run
 
-angular.json
+**angular.json**
 contains configuration options for serving testing and building this project
 
-index.html
+**index.html**
 finally render to customer
+
